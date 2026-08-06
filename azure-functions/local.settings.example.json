@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "MICROSOFT_TENANT_ID": "replace-with-tenant-id",
+    "MICROSOFT_CLIENT_ID": "replace-with-application-client-id",
+    "MICROSOFT_CLIENT_SECRET": "replace-with-client-secret",
+    "CONTACT_SENDER": "info@unistarchemical.com",
+    "CONTACT_RECIPIENT": "info@unistarchemical.com"
+  }
+}

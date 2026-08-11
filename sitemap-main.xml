@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Main Pages -->
+    <url><loc>https://www.unistarchemical.com/</loc></url>
+    <url><loc>https://www.unistarchemical.com/about/</loc></url>
+    <url><loc>https://www.unistarchemical.com/contact/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/</loc></url>
+    <url><loc>https://www.unistarchemical.com/industries/</loc></url>
+    <url><loc>https://www.unistarchemical.com/blog/</loc></url>
+    <url><loc>https://www.unistarchemical.com/3m-replacement/</loc></url>
+
+    <!-- Products -->
+    <url><loc>https://www.unistarchemical.com/products/hfc-125/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/hfe-347/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/trans-dce/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-1132e/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-1233ze/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-1234yf/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-7100/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-7200/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-7300/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-fc/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-ic/</loc></url>
+    <url><loc>https://www.unistarchemical.com/products/unisolv-yd/</loc></url>
+
+    <!-- Industries -->
+    <url><loc>https://www.unistarchemical.com/industries/electronics-manufacturing/</loc></url>
+    <url><loc>https://www.unistarchemical.com/industries/fire-protection/</loc></url>
+    <url><loc>https://www.unistarchemical.com/industries/immersion-cooling/</loc></url>
+    <url><loc>https://www.unistarchemical.com/industries/industrial-cleaning/</loc></url>
+    <url><loc>https://www.unistarchemical.com/industries/precision-manufacturing/</loc></url>
+    <url><loc>https://www.unistarchemical.com/industries/refrigerant-applications/</loc></url>
+
+    <!-- Blog -->
+    <url><loc>https://www.unistarchemical.com/blog/3m-novec-replacement-guide/</loc></url>
+    <url><loc>https://www.unistarchemical.com/blog/stay-compliant-with-sustainable-pfas-free-solvents/</loc></url>
+    <url><loc>https://www.unistarchemical.com/blog/trans-dce-as-a-replacement-for-traditional-chlorinated-solvents/</loc></url>
+    <url><loc>https://www.unistarchemical.com/blog/unisolv-replacement-for-3m-novec/</loc></url>
+
+    <!-- Legal -->
+    <url><loc>https://www.unistarchemical.com/privacy.html</loc></url>
+
+</urlset>

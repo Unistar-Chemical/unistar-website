@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.unistarchemical.com/sitemap.xml
+Sitemap: https://www.unistarchemical.com/sitemap-main.xml

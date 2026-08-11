@@ -2407,6 +2407,28 @@ body.contact-notice-open {
     transition: none !important;
   }
 
+  .page {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .hero-title,
+  .hero-subtitle,
+  .hero-button {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .molecule-stage.product-image {
+    transition: none !important;
+  }
+
+  .product-card:focus-within .product-use-icon,
+  .product-card:hover .product-use-icon {
+    transform: none !important;
+  }
+}
+
   .molecule-stage.product-image {
     transition: none;
   }
@@ -2415,4 +2437,3 @@ body.contact-notice-open {
   .product-card:focus-within .product-use-icon {
     transform: none;
   }
-}

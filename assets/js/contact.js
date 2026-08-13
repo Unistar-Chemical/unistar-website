@@ -1,7 +1,5 @@
 (() => {
-  const form = document.querySelector(
-    '.contact-form[data-contact-mode="temporary"]',
-  );
+  const form = document.querySelector(".contact-form");
   const notice = document.querySelector("#contact-form-notice");
 
   if (!form || !notice) return;
@@ -18,6 +16,7 @@
     const inquiry = value("inquiry") || "Website Inquiry";
     const product = value("product");
     const subject = product ? `${inquiry} — ${product}` : inquiry;
+
     const body = [
       `Name: ${value("name")}`,
       `Company: ${value("company")}`,
@@ -49,6 +48,7 @@
     window.alert(
       "Your form has not been sent. Please email info@unistarchemical.com or call (847) 724-8869.",
     );
+
     document.body.classList.remove("contact-notice-open");
   };
 
@@ -56,9 +56,44 @@
     if (notice.open) notice.close();
   };
 
-  form.addEventListener("submit", (event) => {
+  form.addEventListener("submit", async (event) => {
     event.preventDefault();
-    openNotice();
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Sending...";
+    }
+
+    try {
+      const response = await fetch("/api/contact.php", {
+        method: "POST",
+        body: new FormData(form),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || "Unable to send message.");
+      }
+
+      form.reset();
+
+      if (startedAt) {
+        startedAt.value = new Date().toISOString();
+      }
+
+      window.alert(
+        "Thank you! Your message has been sent successfully. We will be in touch soon.",
+      );
+    } catch (error) {
+      console.error("Contact form submission failed:", error);
+      openNotice();
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = "Submit Request";
+      }
+    }
   });
 
   notice.querySelectorAll("[data-dialog-close]").forEach((button) => {

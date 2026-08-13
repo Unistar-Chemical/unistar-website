@@ -1,8 +1,0 @@
-{
-  "name": "unistar-website-api",
-  "version": "17.2.0",
-  "private": true,
-  "engines": {
-    "node": ">=18"
-  }
-}

@@ -76,5 +76,3 @@ RedirectMatch 301 ^/public/storage/services/April2025/ntNaH5KX9r2MlHzX5sAN\.pdf$
 # Unisolv-YD
 RedirectMatch 301 ^/public/storage/services/April2025/yuUVF9BNsEFp95ZgDiZL\.pdf$ /assets/documents/sds/Unisolv-yd-SDS-2025.pdf
 
-# Old homepage
-RedirectMatch 301 ^/index\.htm$ https://unistarchemical.com/

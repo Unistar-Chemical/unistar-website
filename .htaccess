@@ -1,0 +1,77 @@
+ErrorDocument 404 /404.html
+
+# ============================================
+# OLD UNISTAR SITE - PERMANENT 301 REDIRECTS
+# ============================================
+
+# --- Main Pages ---
+
+RedirectMatch 301 ^/about-us/?$ https://unistarchemical.com/about/
+
+RedirectMatch 301 ^/contact-us/?$ https://unistarchemical.com/contact/
+
+RedirectMatch 301 ^/our-blog/?$ https://unistarchemical.com/blog/
+
+
+# --- Old Product / Service Pages ---
+
+RedirectMatch 301 ^/service/trans-1-2-dichloroethylene/?$ https://unistarchemical.com/products/trans-dce/
+
+RedirectMatch 301 ^/service/hfe-347/?$ https://unistarchemical.com/products/hfe-347/
+
+RedirectMatch 301 ^/service/hfo-1233yd/?$ https://unistarchemical.com/products/unisolv-yd/
+
+RedirectMatch 301 ^/service/perfluoro-2-methyl-3-patanone/?$ https://unistarchemical.com/products/unisolv-ic/
+
+RedirectMatch 301 ^/service/unisolv-7100/?$ https://unistarchemical.com/products/unisolv-7100/
+
+RedirectMatch 301 ^/service/unisolv-7200/?$ https://unistarchemical.com/products/unisolv-7200/
+
+RedirectMatch 301 ^/service/unisolv-7300/?$ https://unistarchemical.com/products/unisolv-7300/
+
+RedirectMatch 301 ^/service/unisolv-fc/?$ https://unistarchemical.com/products/unisolv-fc/
+
+
+# --- Old Blog URLs ---
+
+# Trans-DCE
+RedirectMatch 301 ^/blog/trans-dce-replacement-for-tce-npb/?$ https://unistarchemical.com/blog/trans-dce-as-a-replacement-for-traditional-chlorinated-solvents/
+
+# 3M Novec Replacement Guide
+RedirectMatch 301 ^/blog/3mtm-novectm-replacement-fluids-drop-in-alternatives-to-avoid-supply-chain-disruptions/?$ https://unistarchemical.com/blog/3m-novec-replacement-guide/
+
+# Unisolv / Novec 7100, 7200, 7300 article
+RedirectMatch 301 ^/blog/alternative-to-novectm-7100-7200-and-7300/?$ https://unistarchemical.com/blog/unisolv-replacement-for-3m-novec/
+
+# Duplicate new-site article 
+RedirectMatch 301 ^/blog/why-make-the-switch-to-unisolv/?$ https://unistarchemical.com/blog/unisolv-replacement-for-3m-novec/
+
+# Old long-form URL found by Semrush
+RedirectMatch 301 ^/blog/why-make-the-switch-to-unisolv-a-smarter-alternative-to-novectm-7100-7200-and-7300/?$ https://unistarchemical.com/blog/unisolv-replacement-for-3m-novec/
+
+
+# --- Old Laravel SDS URLs ---
+
+# Trans-DCE
+RedirectMatch 301 ^/public/storage/services/April2025/6LKP2zqdJzh6ZKdiNCjG\.pdf$ /assets/documents/sds/Trans-DCE-SDS-2025.pdf
+
+# HFE-347
+RedirectMatch 301 ^/public/storage/services/April2025/djUH4eKZEhQuHXpq1hpy\.pdf$ /assets/documents/sds/HFE-347-SDS-2025.pdf
+
+# Unisolv-7100
+RedirectMatch 301 ^/public/storage/services/April2025/XNgC2qewHwGcQmezP24I\.pdf$ /assets/documents/sds/Unisolv-7100-SDS-2025.pdf
+
+# Unisolv-7200
+RedirectMatch 301 ^/public/storage/services/April2025/emFZczycR6A0aG8ualCf\.pdf$ /assets/documents/sds/Unisolv-7200-SDS-2025.pdf
+
+# Unisolv-7300
+RedirectMatch 301 ^/public/storage/services/April2025/wLSzg64cEffwPe7hJPSe\.pdf$ /assets/documents/sds/Unisolv-7300-SDS-2025.pdf
+
+# Unisolv-FC
+RedirectMatch 301 ^/public/storage/services/April2025/du9ist0j9eR59FbPDXVr\.pdf$ /assets/documents/sds/Unisolv-FC-SDS-2025.pdf
+
+# Unisolv-IC
+RedirectMatch 301 ^/public/storage/services/April2025/ntNaH5KX9r2MlHzX5sAN\.pdf$ /assets/documents/sds/Unisolv-IC-SDS-2025.pdf
+
+# Unisolv-YD
+RedirectMatch 301 ^/public/storage/services/April2025/yuUVF9BNsEFp95ZgDiZL\.pdf$ /assets/documents/sds/Unisolv-yd-SDS-2025.pdf

@@ -5,7 +5,7 @@
   "port": 22,
   "username": "unistarc",
   "remotePath": "/home1/unistarc/public_html/website_e5b9ac9b",
-  "privateKeyPath": "/home/gennasandstrom/.ssh/id_rsa_bluehost",
+  "privateKeyPath": "CHANGE-THIS-TO-YOUR-LOCAL-SSH-KEY-PATH",
   "passphrase": true,
   "uploadOnSave": false,
   "ignore": [
